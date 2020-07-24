@@ -34,6 +34,7 @@ public class LoginTest {
         //WebDriverWait wait = new WebDriverWait(driver, 5);
         driver.findElement(By.name("q")).isDisplayed();
         driver.findElement(By.name("btnK")).isDisplayed();
+        driver.findElement(By.id("gbqfbb")).isDisplayed();
 
     }
 
