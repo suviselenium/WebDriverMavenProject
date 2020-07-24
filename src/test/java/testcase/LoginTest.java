@@ -35,6 +35,8 @@ public class LoginTest {
         driver.findElement(By.name("q")).isDisplayed();
         driver.findElement(By.name("btnK")).isDisplayed();
         driver.findElement(By.id("gbqfbb")).isDisplayed();
+        driver.findElement(By.id("hplogo")).isDisplayed();
+
 
     }
 
